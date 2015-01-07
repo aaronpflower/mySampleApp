@@ -2,8 +2,9 @@
   "name": "mySampleApp",
   "version": "1.0.0",
   "description": "Sample Application",
-  "main": "index.js",
+  "homepage": "",
   "scripts": {
+    "start": "nodemon server/src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/aaronpflower/mySampleApp/issues"
   },
-  "homepage": "https://github.com/aaronpflower/mySampleApp"
+  "dependencies": {
+    "colors": "^1.0.3",
+    "express": "^4.10.7",
+    "jade": "^1.8.2",
+    "mongoose": "^3.8.21"
+  },
+  "devDependencies": {
+    "nodemon": "^1.2.1"
+  }
 }
